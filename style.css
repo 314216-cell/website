@@ -237,7 +237,8 @@ section {
 
 .process-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 桌機：4 個一排 */
+    grid-template-columns: repeat(4, 1fr);
+    /* 桌機：4 個一排 */
     gap: 2rem;
     padding: 2rem 0;
 }
@@ -434,11 +435,12 @@ footer {
 }
 
 
-    .process-grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr); /* 桌機：4 個一排 */
-        gap: 2rem;
-        padding: 2rem 0;
+.process-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* 桌機：5 個一排 */
+    gap: 1.5rem;
+    padding: 2rem 0;
 }
 
 /* Ensure cards have consistent height */
@@ -483,6 +485,7 @@ footer {
     margin-bottom: 10px;
     /* 增加一点间距 */
 }
+
 .overlay p {
     color: #E8EAF6;
     font-size: 0.9rem;
@@ -490,6 +493,7 @@ footer {
     line-height: 1.4;
     text-align: center;
 }
+
 /* 平板 */
 @media (max-width: 1024px) {
     .process-grid {
@@ -503,13 +507,15 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
 /* =========================
    藍染小知識 專用排版
    ========================= */
 
-   .knowledge-grid {
+.knowledge-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 桌機：4 個一排 */
+    grid-template-columns: repeat(4, 1fr);
+    /* 桌機：4 個一排 */
     gap: 2rem;
 }
 
@@ -526,5 +532,3 @@ footer {
         grid-template-columns: 1fr;
     }
 }
-
-  
